@@ -1,0 +1,28 @@
+#root {
+  max-width: 1600px;
+  margin: auto;
+  padding: 3rem; /* Increased padding */
+}
+
+.navbar {
+  background-color: #000; /* Black background for the navbar */
+  color: #fff; /* White text */
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: larger; /* Larger button text */
+}
+
+input {
+  width: calc(100% - 20px); /* Full width minus padding */
+}
+
+.dialog-title {
+   font-weight: bold;
+   font-size: larger;
+}
